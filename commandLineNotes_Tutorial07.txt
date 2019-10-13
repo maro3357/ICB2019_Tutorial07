@@ -34,7 +34,7 @@ Again, note that the input hmm build profile to the hmmsearch function is the fi
 
 ---- HMMER INSTALLATION NOTE ----
 
-If the hmmbuild or hmmsearch commands are unable to be found by the terminal (command line), it may be necessary to direct the terminal to where the binary files for hmmer are installed with the following command:
+If the hmmbuild or hmmsearch commands are unable to be found by the terminal, it may be necessary to direct the terminal to where the binary files for hmmer are installed with the following command:
 $ PATH=$PATH:~/Private/bin
 
 Please note that the binary files for hmmer should be installed in the ~/Private/bin directory during configuration (./configure --prefix ~/Private/bin). Additionally, the ~/Private/bin folder should not already exsist, since it will be created by hmmer during installation. If the folder already exsist, the binary files for hmmer will by installed in ~/Private/bin/bin. Thus, the direction for the build files would need to be changed as follows:
