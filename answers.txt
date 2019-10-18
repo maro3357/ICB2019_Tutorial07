@@ -1,0 +1,4 @@
+1. muscle tool generated sigma70Seqs.afa. it is alligned with other sequences and therefore, the values of the sequences are
+   separated by dash "-"s, and therefore are easier for hmmer tool to compare to protein sequence of Roseobacteria
+
+3.hmmbuild and hmmsearch generated the final sigma70.out file. It shows that there are 7 matching sequences
